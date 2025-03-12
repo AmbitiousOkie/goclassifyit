@@ -25,7 +25,7 @@ bin/goclassy_windows_x64.exe -f test_images/gopher1.png -c cui
 
 #### **📌 Linux (64-bit)**
 ```bash
-chmod +x bin/goclassy_linux_amdx64.bin
+chmod +x bin/goclassy_linux_x64.bin
 bin/goclassy_linux_x64.bin -f test_images/gopher1.png -c cui
 ```
 
