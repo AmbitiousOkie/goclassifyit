@@ -9,14 +9,18 @@
 - ✅ **Supports PNG & JPEG formats**.
 - ✅ **Processes individual files or entire directories**.
 - ✅ **Customizable banner height** for flexible formatting.
-- ✅ **Embeds a TrueType font (`DejaVuSans-Bold.ttf`)** to ensure consistent text rendering.
+- ✅ **Supports Centered or Cornered Banner Labels** to allow for both format standards.
 - ✅ **Pre-built binaries** available for **Windows** and **Linux**.
 
 ---
 
 ## 📷 Example Output
-### **Classified Image (CUI)**
-![Classified Image](goclassy_output/gopher2.png)
+### **🚨Classified Image (CUI)**
+![Classified Image](images/centered_cui_gopher.png)
+
+### **📛Classified Image (SECRET)**
+![Classified Image](images/cornered_secret_gopher.png)
+
 
 ---
 
@@ -52,6 +56,7 @@ Usage:
   -c "classification"   Choose classification: unclassed, cui, or secret
   -o "output_directory" Specify output directory (default: goclassy_output)
   -h "height"           Banner height in pixels (default: 60)
+  -l "location"         Location of the banner text: center, corners (default: center)
 ```
 
 ### **📌 Example Commands**
