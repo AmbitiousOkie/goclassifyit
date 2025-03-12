@@ -14,6 +14,12 @@
 
 ---
 
+## 📷 Example Output
+### **Classified Image (CUI)**
+![Classified Image](goclassy_output/gopher2.png)
+
+---
+
 ## **📦 Installation**
 ### **1️⃣ Download Precompiled Binaries**
 Pre-built binaries for Windows and Linux are available in the `bin/` directory.
