@@ -1,4 +1,4 @@
-module goclassy
+module goclassifyit
 
 go 1.24.1
 
