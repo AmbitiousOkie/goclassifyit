@@ -51,12 +51,13 @@ go build -o bin/goclassifyit main.go
 ### **📌 Command-Line Flags**
 ```
 Usage:
-  -d "directory"        Classify all images in a directory
-  -f "file"             Classify a specific image file
-  -c "classification"   Choose classification: unclassed, cui, or secret
-  -o "output_directory" Specify output directory (default: goclassifyit_output)
-  -h "height"           Banner height in pixels (default: 60)
-  -l "location"         Location of the banner text: center, corners (default: center)
+  -d        "directory"        Classify all images in a directory
+  -f        "file"             Classify a specific image file
+  -c        "classification"   Choose classification: unclassed, cui, or secret
+  -o        "output_directory" Specify output directory (default: goclassifyit_output)
+  -h        "height"           Banner height in pixels (default: 60)
+  -l        "location"         Location of the banner text: center, corners (default: center)
+  -custom   "custom banner"    Allows the user to specify the banner color, text color, and text
 ```
 
 ### **📌 Example Commands**
@@ -64,8 +65,11 @@ Usage:
 # Classify a single image
 bin/goclassifyit_linux_x64.bin -f test_images/gopher1.png -c cui -o my_output
 
-#Classify an entire directory
+# Classify an entire directory
 bin/goclassifyit_linux_x64.bin -d test_images/ -c secret -o my_output
+
+# Classify with a customer banner
+bin/goclassifyit_linux_x64.bin -f test_images/gopher2.png -c custom -text SENSITIVE -background-color 255,255,0 -text-color 0,0,0"
 ```
 
 ## **🖼️ How It Works**
