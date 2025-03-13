@@ -10,6 +10,7 @@
 - ✅ **Processes individual files or entire directories**.
 - ✅ **Customizable banner height** for flexible formatting.
 - ✅ **Supports Centered or Cornered Banner Labels** to allow for both format standards.
+- ✅ **Supports Custom Text and Colors** Allowing infinite combinations
 - ✅ **Pre-built binaries** available for **Windows** and **Linux**.
 
 ---
