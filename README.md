@@ -15,12 +15,14 @@
 ---
 
 ## 📷 Example Output
-### **🚨Classified Image (CUI)**
+### **🚨Classified Image Center (CUI)**
 ![Classified Image](images/centered_cui_gopher.png)
 
-### **📛Classified Image (SECRET)**
+### **📛Classified Image Corners (SECRET)**
 ![Classified Image](images/cornered_secret_gopher.png)
 
+### **🛠️Classified Image Corners (CUSTOM)**
+![Classified Image](images/cornered_custom_gopher.png)
 
 ---
 
